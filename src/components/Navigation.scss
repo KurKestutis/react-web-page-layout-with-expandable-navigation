@@ -1,0 +1,22 @@
+.nav {
+  height: 100vh;
+  width: 6rem;
+  background-color: aqua;
+  z-index: 1;
+
+  &-btn {
+    margin: 6rem 0rem 0rem 4.1rem;
+    border: rgb(255, 255, 255) 0.2rem solid;
+    border-radius: 2rem;
+
+    width: 3.5rem;
+    height: 3.5rem;
+
+    &:hover {
+      background-color: chartreuse;
+    }
+    &:active {
+      background-color: rgb(199, 26, 215);
+    }
+  }
+}
