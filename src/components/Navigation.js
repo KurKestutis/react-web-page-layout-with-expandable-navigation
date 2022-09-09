@@ -16,7 +16,7 @@ const Navigation = (props) => {
         className={expanNav ? "nav-btn nav--expanded-btn" : "nav-btn"}
         onClick={expanShrink}
       >
-        Expan Nav
+        {expanNav ? "Shrink Nav" : "Expan Nav"}
       </button>
     </nav>
   );
