@@ -1,6 +1,6 @@
 import "./App.scss";
-import Navigation from "./components/Navigation.jsx";
-import Main from "./components/Main.jsx";
+import Navigation from "./components/Navigation.js";
+import Main from "./components/Main.js";
 
 function App() {
   return (
