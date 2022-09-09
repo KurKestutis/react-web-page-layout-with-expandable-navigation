@@ -1,4 +1,4 @@
-import { useState, className } from "react";
+import { useState } from "react";
 import "./Navigation.scss";
 
 const Navigation = (props) => {
@@ -9,18 +9,10 @@ const Navigation = (props) => {
   };
 
   return (
-    <nav
-      className={
-        expan ? (className = "nav nav--expanded") : (className = "nav")
-      }
-    >
+    <nav className={expan ? "nav nav--expanded" : "nav"}>
       <button
         type="button"
-        className={`'nav-btn', ${
-          expan
-            ? (className = "nav-btn nav--expanded-btn")
-            : (className = "nav-btn")
-        }`}
+        className={expan ? "nav-btn nav--expanded-btn" : "nav-btn"}
         onClick={expanShrink}
       >
         Expan Nav
