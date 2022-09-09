@@ -1,4 +1,7 @@
-.App {
-  // text-align: center;
-  display: flex;
+.main-content-wraper {
+  margin-left: 4.4rem;
+
+  &--shrink {
+    margin-left: 10rem;
+  }
 }

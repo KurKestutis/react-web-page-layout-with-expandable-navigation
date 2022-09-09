@@ -2,17 +2,18 @@ import { useState } from "react";
 import "./Navigation.scss";
 
 const Navigation = (props) => {
-  const [expan, setExpan] = useState(false);
+  const [expanNav, setExpanNav] = useState(false);
 
-  const expanShrink = (props) => {
-    expan ? setExpan(false) : setExpan(true);
+  const expanShrink = (event) => {
+    expanNav ? setExpanNav(false) : setExpanNav(true);
+    props.onClickToggleMainContent(event.target);
   };
 
   return (
-    <nav className={expan ? "nav nav--expanded" : "nav"}>
+    <nav className={expanNav ? "nav nav--expanded" : "nav"}>
       <button
         type="button"
-        className={expan ? "nav-btn nav--expanded-btn" : "nav-btn"}
+        className={expanNav ? "nav-btn nav--expanded-btn" : "nav-btn"}
         onClick={expanShrink}
       >
         Expan Nav
