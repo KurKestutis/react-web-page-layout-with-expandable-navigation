@@ -1,22 +1,35 @@
 .nav {
   height: 100vh;
-  width: 6rem;
+  width: 4.4rem;
   background-color: aqua;
   z-index: 1;
+  position: fixed;
 
   &-btn {
-    margin: 6rem 0rem 0rem 4.1rem;
+    width: 3.8rem;
+    height: 3.8rem;
+    margin: 6rem 0rem 0rem 2.4rem;
     border: rgb(255, 255, 255) 0.2rem solid;
     border-radius: 2rem;
-
-    width: 3.5rem;
-    height: 3.5rem;
+    display: flex;
+    justify-items: center;
+    align-items: center;
 
     &:hover {
-      background-color: chartreuse;
+      background-color: rgb(223, 234, 18);
     }
     &:active {
       background-color: rgb(199, 26, 215);
+    }
+  }
+
+  &--expanded {
+    width: 10rem;
+    background-color: crimson;
+
+    &-btn {
+      background-color: rgb(60, 240, 57);
+      transform: translateX(150%);
     }
   }
 }
