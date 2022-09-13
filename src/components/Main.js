@@ -4,30 +4,9 @@ import Home from "./Pages/Home";
 import Projects from "./Pages/Projects";
 import About from "./Pages/About";
 
+import { Route, Routes } from "react-router-dom";
+
 const Main = () => {
-  let component;
-  switch (window.location.pathname) {
-    case "/":
-      component = <Main />;
-
-      break;
-
-    case "/home":
-      component = <Home />;
-      break;
-
-    case "/projects":
-      component = <Projects />;
-      break;
-
-    case "/about":
-      component = <About />;
-      break;
-
-    default:
-      break;
-  }
-
   return (
     <main className="main">
       {/* <div>
@@ -104,7 +83,13 @@ const Main = () => {
           </p>
         </div>
       </div> */}
-      {component}
+      {/* {component} */}
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/Home" element={<Home />} />
+        <Route path="/Projects" element={<Projects />} />
+        <Route path="/About" element={<About />} />
+      </Routes>
     </main>
   );
 };
