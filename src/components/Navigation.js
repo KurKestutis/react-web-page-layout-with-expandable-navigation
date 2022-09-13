@@ -24,13 +24,13 @@ const Navigation = (props) => {
       </button>
       <ul className="nav-list">
         <li className="nav-list-item active">
-          <a href="/home" class="nav-list-item-link">
+          <a href="/home" className="nav-list-item-link">
             <img src={home} alt="home" className="nav-list-item-link-logo" />
             <h4 className="nav-list-item-link-text">Home</h4>
           </a>
         </li>
         <li className="nav-list-item">
-          <a href="/projects" class="nav-list-item-link">
+          <a href="/projects" className="nav-list-item-link">
             <img
               src={projects}
               alt="home"
@@ -40,7 +40,7 @@ const Navigation = (props) => {
           </a>
         </li>
         <li className="nav-list-item">
-          <a href="/about" class="nav-list-item-link">
+          <a href="/about" className="nav-list-item-link">
             <img src={about} alt="about" className="nav-list-item-link-logo" />
             <h4 className="nav-list-item-link-text visible">About</h4>
           </a>
