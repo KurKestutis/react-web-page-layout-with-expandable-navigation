@@ -1,23 +1,51 @@
 import { useState } from "react";
 import "./Navigation.scss";
 
+import home from "./../img/home.png";
+import projects from "./../img/projects.png";
+import about from "./../img/about.png";
+
 const Navigation = (props) => {
-  const [expanNav, setExpanNav] = useState(false);
+  const [expanNavBool, setExpanNav] = useState(false);
 
   const expanShrink = (event) => {
-    expanNav ? setExpanNav(false) : setExpanNav(true);
+    expanNavBool ? setExpanNav(false) : setExpanNav(true);
     props.onClickToggleMainContent(event.target);
   };
 
   return (
-    <nav className={expanNav ? "nav nav--expanded" : "nav"}>
+    <nav className={expanNavBool ? "nav nav--expanded" : "nav"}>
       <button
         type="button"
-        className={expanNav ? "nav-btn nav--expanded-btn" : "nav-btn"}
+        className={expanNavBool ? "nav-btn nav--expanded-btn" : "nav-btn"}
         onClick={expanShrink}
       >
-        {expanNav ? "Shrink Nav" : "Expan Nav"}
+        {expanNavBool ? "Shrink Nav" : "Expan Nav"}
       </button>
+      <ul className="nav-list">
+        <li className="nav-list-item active">
+          <a href="/home" class="nav-list-item-link">
+            <img src={home} alt="home" className="nav-list-item-link-logo" />
+            <h4 className="nav-list-item-link-text">Home</h4>
+          </a>
+        </li>
+        <li className="nav-list-item">
+          <a href="/projects" class="nav-list-item-link">
+            <img
+              src={projects}
+              alt="home"
+              className="nav-list-item-link-logo"
+            />
+            <h4 className="nav-list-item-link-text">Projects</h4>
+          </a>
+        </li>
+        <li className="nav-list-item">
+          <a href="/about" class="nav-list-item-link">
+            <img src={about} alt="about" className="nav-list-item-link-logo" />
+            <h4 className="nav-list-item-link-text visible">About</h4>
+          </a>
+        </li>
+      </ul>
     </nav>
   );
 };

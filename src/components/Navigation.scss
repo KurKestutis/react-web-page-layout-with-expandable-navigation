@@ -8,7 +8,7 @@
   &-btn {
     width: 3.8rem;
     height: 3.8rem;
-    margin: 6rem 0rem 0rem 2.4rem;
+    margin: 4.8rem 0rem 0rem 2.4rem;
     border: rgb(255, 255, 255) 0.2rem solid;
     border-radius: 2rem;
     display: flex;
@@ -18,6 +18,7 @@
     &:hover {
       background-color: rgb(223, 234, 18);
     }
+
     &:active {
       background-color: rgb(199, 26, 215);
     }
@@ -32,4 +33,34 @@
       transform: translateX(150%);
     }
   }
+
+  &-list {
+    list-style: none;
+
+    &-item {
+      margin: 1rem 0;
+      padding: 0.3rem;
+
+      &-link {
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        &-logo {
+          width: 2rem;
+          height: 2rem;
+        }
+
+        &-text {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+.active {
+  background-color: rgb(127, 237, 108);
 }
