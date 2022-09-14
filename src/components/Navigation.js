@@ -21,13 +21,21 @@ const Navigation = (props) => {
         className={expanNavBool ? "nav-btn nav--expanded-btn" : "nav-btn"}
         onClick={expanShrink}
       >
-        {expanNavBool ? "Shrink Nav" : "Expan Nav"}
+        {expanNavBool ? "<" : ">"}
       </button>
       <ul className="nav-list">
         <li className="nav-list-item">
           <NavLink to="/home" className="nav-list-item-link">
             <img src={home} alt="home" className="nav-list-item-link-logo" />
-            <h4 className="nav-list-item-link-text">Home</h4>
+            <h4
+              className={
+                expanNavBool
+                  ? "nav-list-item-link-text--expanded"
+                  : "nav-list-item-link-text"
+              }
+            >
+              Home
+            </h4>
           </NavLink>
         </li>
         <li className="nav-list-item">
@@ -37,13 +45,29 @@ const Navigation = (props) => {
               alt="home"
               className="nav-list-item-link-logo"
             />
-            <h4 className="nav-list-item-link-text">Projects</h4>
+            <h4
+              className={
+                expanNavBool
+                  ? "nav-list-item-link-text--expanded"
+                  : "nav-list-item-link-text"
+              }
+            >
+              Projects
+            </h4>
           </NavLink>
         </li>
         <li className="nav-list-item">
           <NavLink to="/about" className="nav-list-item-link">
             <img src={about} alt="about" className="nav-list-item-link-logo" />
-            <h4 className="nav-list-item-link-text visible">About</h4>
+            <h4
+              className={
+                expanNavBool
+                  ? "nav-list-item-link-text--expanded"
+                  : "nav-list-item-link-text"
+              }
+            >
+              About
+            </h4>
           </NavLink>
         </li>
       </ul>
