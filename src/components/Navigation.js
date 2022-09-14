@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./Navigation.scss";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 import home from "./../img/home.png";
 import projects from "./../img/projects.png";
@@ -24,27 +24,27 @@ const Navigation = (props) => {
         {expanNavBool ? "Shrink Nav" : "Expan Nav"}
       </button>
       <ul className="nav-list">
-        <li className="nav-list-item active">
-          <Link to="/home" className="nav-list-item-link">
+        <li className="nav-list-item">
+          <NavLink to="/home" className="nav-list-item-link">
             <img src={home} alt="home" className="nav-list-item-link-logo" />
             <h4 className="nav-list-item-link-text">Home</h4>
-          </Link>
+          </NavLink>
         </li>
         <li className="nav-list-item">
-          <Link to="/projects" className="nav-list-item-link">
+          <NavLink to="/projects" className="nav-list-item-link">
             <img
               src={projects}
               alt="home"
               className="nav-list-item-link-logo"
             />
             <h4 className="nav-list-item-link-text">Projects</h4>
-          </Link>
+          </NavLink>
         </li>
         <li className="nav-list-item">
-          <Link to="/about" className="nav-list-item-link">
+          <NavLink to="/about" className="nav-list-item-link">
             <img src={about} alt="about" className="nav-list-item-link-logo" />
             <h4 className="nav-list-item-link-text visible">About</h4>
-          </Link>
+          </NavLink>
         </li>
       </ul>
     </nav>
