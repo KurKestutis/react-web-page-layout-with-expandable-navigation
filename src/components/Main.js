@@ -4,7 +4,7 @@ import Home from "./Pages/Home";
 import Projects from "./Pages/Projects";
 import About from "./Pages/About";
 
-import { Route, Routes, Navigate } from "react-router-dom";
+import { Routes, Route, Navigate } from "react-router-dom";
 
 const Main = () => {
   return (
