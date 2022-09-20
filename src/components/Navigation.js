@@ -42,7 +42,7 @@ const Navigation = (props) => {
           <NavLink to="/projects" className="nav-list-item-link">
             <img
               src={projects}
-              alt="home"
+              alt="projects"
               className="nav-list-item-link-logo"
             />
             <h4
