@@ -1,8 +1,8 @@
 import "./App.scss";
-import Navigation from "./components/Navigation.js";
-import Main from "./components/Main.js";
-import Header from "./components/Header.js";
-import Footer from "./components/Footer";
+import Navigation from "./components/MainLayoutComponents/Navigation.js";
+import Main from "./components/MainLayoutComponents/Main.js";
+import Header from "./components/MainLayoutComponents/Header.js";
+import Footer from "./components/MainLayoutComponents/Footer.js";
 import { useState } from "react";
 
 function App(props) {

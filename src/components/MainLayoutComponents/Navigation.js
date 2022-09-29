@@ -2,9 +2,9 @@ import { useState } from "react";
 import "./Navigation.scss";
 import { NavLink } from "react-router-dom";
 
-import home from "./../img/home.png";
-import projects from "./../img/projects.png";
-import about from "./../img/about.png";
+import home from "../../img/home.png";
+import projects from "../../img/projects.png";
+import about from "../../img/about.png";
 
 const Navigation = (props) => {
   const [expanNavBool, setExpanNav] = useState(false);

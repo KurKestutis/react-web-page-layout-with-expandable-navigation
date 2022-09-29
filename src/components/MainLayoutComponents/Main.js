@@ -1,9 +1,9 @@
 import "./Main.scss";
 
-import Home from "./Pages/Home";
-import Projects from "./Pages/Projects";
-import About from "./Pages/About";
-import NotFound from "./NotFound";
+import Home from "../Pages/Home";
+import Projects from "../Pages/Projects";
+import About from "../Pages/About";
+import NotFound from "../Pages/NotFound";
 
 import { Routes, Route, Navigate } from "react-router-dom";
 
