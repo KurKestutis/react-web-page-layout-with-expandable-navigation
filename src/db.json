@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Dice game PIG",
+    "imgPath": "https://kurkestutis.netlify.app/img/screenshots/screenshot-1_kk.JPG",
+    "siteHttp": "https://kurkestutis.github.io/pig-dice-game/",
+    "codeHttp": "https://github.com/KurKestutis/pig-dice-game"
+  },
+  {
+    "id": 2,
+    "name": "Countdown clock",
+    "imgPath": "https://kurkestutis.netlify.app/img/screenshots/screenshot-2_kk.JPG",
+    "siteHttp": "https://kurkestutis.github.io/countdown/",
+    "codeHttp": "https://github.com/KurKestutis/countdown"
+  },
+  {
+    "id": 3,
+    "name": "Four card feature section",
+    "imgPath": "https://kurkestutis.netlify.app/img/screenshots/screenshot-3_kk.JPG",
+    "siteHttp": "https://kurkestutis.github.io/four-card-feature-section/",
+    "codeHttp": "https://github.com/KurKestutis/four-card-feature-section"
+  },
+  {
+    "id": 4,
+    "name": "Single price grid component",
+    "imgPath": "https://kurkestutis.netlify.app/img/screenshots/screenshot-4_kk.JPG",
+    "siteHttp": "https://kurkestutis.github.io/single-price-grid-component/",
+    "codeHttp": "https://github.com/KurKestutis/single-price-grid-component"
+  },
+  {
+    "id": 5,
+    "name": "Tree",
+    "imgPath": "https://kurkestutis.netlify.app/img/screenshots/screenshot-5_kk.JPG",
+    "siteHttp": "https://kurkestutis.github.io/Tree/",
+    "codeHttp": "https://github.com/KurKestutis/Tree"
+  },
+  {
+    "id": 6,
+    "name": "Photo Website",
+    "imgPath": "https://kurkestutis.netlify.app/img/screenshots/screenshot-6_kk.JPG",
+    "siteHttp": "https://kurkestutis.github.io/KestutisPhotoWebsite/",
+    "codeHttp": "https://github.com/KurKestutis/KestutisPhotoWebsite"
+  }
+]
