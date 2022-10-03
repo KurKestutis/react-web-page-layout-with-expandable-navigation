@@ -3,6 +3,7 @@
     "id": 1,
     "name": "Dice game PIG",
     "imgPath": "https://kurkestutis.netlify.app/img/screenshots/screenshot-1_kk.JPG",
+    "video": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
     "siteHttp": "https://kurkestutis.github.io/pig-dice-game/",
     "codeHttp": "https://github.com/KurKestutis/pig-dice-game"
   },

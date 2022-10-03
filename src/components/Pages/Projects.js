@@ -11,6 +11,7 @@ const Projects = (props) => {
       imgSrc={record.imgPath}
       siteLink={record.siteHttp}
       codeLink={record.codeHttp}
+      video={record.video}
     />
   ));
 
