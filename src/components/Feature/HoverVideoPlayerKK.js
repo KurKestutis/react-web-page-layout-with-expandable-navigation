@@ -3,6 +3,12 @@ import HoverVideoPlayer from "react-hover-video-player";
 function HoverVideoPlayerKK(props) {
   return (
     <HoverVideoPlayer
+      style={{
+        // Make the image expand to cover the video's dimensions
+        width: "100%",
+        maxWidth: "600px",
+        height: "100%",
+      }}
       videoSrc={props.video}
       pausedOverlay={
         <img
@@ -11,6 +17,7 @@ function HoverVideoPlayerKK(props) {
           style={{
             // Make the image expand to cover the video's dimensions
             width: "100%",
+            maxWidth: "600px",
             height: "100%",
             objectFit: "cover",
           }}

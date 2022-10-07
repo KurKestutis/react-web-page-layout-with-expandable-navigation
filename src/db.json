@@ -3,7 +3,7 @@
     "id": 1,
     "name": "Dice game PIG",
     "imgPath": "https://kurkestutis.netlify.app/img/screenshots/screenshot-1_kk.JPG",
-    "video": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+    "video": "https://storage.googleapis.com/kk-second/first-kk-folder/dice_maz.mp4",
     "siteHttp": "https://kurkestutis.github.io/pig-dice-game/",
     "codeHttp": "https://github.com/KurKestutis/pig-dice-game"
   },
@@ -11,6 +11,7 @@
     "id": 2,
     "name": "Countdown clock",
     "imgPath": "https://kurkestutis.netlify.app/img/screenshots/screenshot-2_kk.JPG",
+    "video": "https://storage.googleapis.com/kk-second/first-kk-folder/new_year_maz.mp4",
     "siteHttp": "https://kurkestutis.github.io/countdown/",
     "codeHttp": "https://github.com/KurKestutis/countdown"
   },
@@ -18,6 +19,7 @@
     "id": 3,
     "name": "Four card feature section",
     "imgPath": "https://kurkestutis.netlify.app/img/screenshots/screenshot-3_kk.JPG",
+    "video": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
     "siteHttp": "https://kurkestutis.github.io/four-card-feature-section/",
     "codeHttp": "https://github.com/KurKestutis/four-card-feature-section"
   },
