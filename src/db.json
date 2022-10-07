@@ -2,16 +2,16 @@
   {
     "id": 1,
     "name": "Dice game PIG",
-    "imgPath": "https://kurkestutis.netlify.app/img/screenshots/screenshot-1_kk.JPG",
-    "video": "https://storage.googleapis.com/kk-second/first-kk-folder/dice_maz.mp4",
+    "imgPath": "https://storage.googleapis.com/kk-portfolio-bucket/img/Screenshot_2022-10-07_11.27.31_dice.png",
+    "video": "https://storage.googleapis.com/kk-portfolio-bucket/video/screen-recorder-fri-oct-07-2022-14-36-18-good-9-dice.mp4",
     "siteHttp": "https://kurkestutis.github.io/pig-dice-game/",
     "codeHttp": "https://github.com/KurKestutis/pig-dice-game"
   },
   {
     "id": 2,
     "name": "Countdown clock",
-    "imgPath": "https://kurkestutis.netlify.app/img/screenshots/screenshot-2_kk.JPG",
-    "video": "https://storage.googleapis.com/kk-second/first-kk-folder/new_year_maz.mp4",
+    "imgPath": "https://storage.googleapis.com/kk-portfolio-bucket/img/Screenshot-2022-10-07-15.16.227-3-new-year.jpg",
+    "video": "https://storage.googleapis.com/kk-portfolio-bucket/video/screen-recorder-fri-oct-07-2022-15-02-25-new-year.webm",
     "siteHttp": "https://kurkestutis.github.io/countdown/",
     "codeHttp": "https://github.com/KurKestutis/countdown"
   },
