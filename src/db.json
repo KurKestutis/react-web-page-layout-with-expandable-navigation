@@ -3,7 +3,7 @@
     "id": 1,
     "name": "Dice game PIG",
     "imgPath": "https://storage.googleapis.com/kk-portfolio-bucket/img/Screenshot_2022-10-07_11.27.31_dice.png",
-    "video": "https://storage.googleapis.com/kk-portfolio-bucket/video/dice-11-screen-recorder-fri-oct-011-2022-16-16-18.mp4",
+    "video": "https://storage.googleapis.com/kk-portfolio-bucket/video/dice-12-screen-recorder-fri-oct-011-2022-16-16-18.mp4",
     "siteHttp": "https://kurkestutis.github.io/pig-dice-game/",
     "codeHttp": "https://github.com/KurKestutis/pig-dice-game"
   },
@@ -35,15 +35,15 @@
     "id": 5,
     "name": "Tree",
     "imgPath": "https://storage.googleapis.com/kk-portfolio-bucket/img/tree-screenshot-2022-10-12-14.51.35.png",
-    "video": "https://storage.googleapis.com/kk-portfolio-bucket/video/tree-screen-recorder-wed-oct-12-2022-14-42-24.mp4",
+    "video": "https://storage.googleapis.com/kk-portfolio-bucket/video/tree-2-screen-recorder-wed-oct-12-2022-14-42-24.mp4",
     "siteHttp": "https://kurkestutis.github.io/tree/",
     "codeHttp": "https://github.com/KurKestutis/tree"
   },
   {
     "id": 6,
     "name": "Photo Website",
-    "imgPath": "https://kurkestutis.netlify.app/img/screenshots/screenshot-6_kk.JPG",
-    "video": "",
+    "imgPath": "https://storage.googleapis.com/kk-portfolio-bucket/img/photo-web-screenshot%202022-10-12%2016.58.06-vv.png",
+    "video": "https://storage.googleapis.com/kk-portfolio-bucket/video/photo-web-1-screen-recorder-wed-oct-12-2022-18-57-36.mp4",
     "siteHttp": "https://kurkestutis.github.io/KestutisPhotoWebsite/",
     "codeHttp": "https://github.com/KurKestutis/KestutisPhotoWebsite"
   }
