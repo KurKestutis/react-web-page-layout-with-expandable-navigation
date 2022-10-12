@@ -26,21 +26,24 @@
   {
     "id": 4,
     "name": "Single price grid component",
-    "imgPath": "https://kurkestutis.netlify.app/img/screenshots/screenshot-4_kk.JPG",
+    "imgPath": "https://storage.googleapis.com/kk-portfolio-bucket/img/single-price-grid-component-screenshot-2022-10-12-14.04.02.png",
+    "video": "https://storage.googleapis.com/kk-portfolio-bucket/video/single-card-video-screen-recorder-wed-oct-12-2022-14-09-02.mp4",
     "siteHttp": "https://kurkestutis.github.io/single-price-grid-component/",
     "codeHttp": "https://github.com/KurKestutis/single-price-grid-component"
   },
   {
     "id": 5,
     "name": "Tree",
-    "imgPath": "https://kurkestutis.netlify.app/img/screenshots/screenshot-5_kk.JPG",
-    "siteHttp": "https://kurkestutis.github.io/Tree/",
-    "codeHttp": "https://github.com/KurKestutis/Tree"
+    "imgPath": "https://storage.googleapis.com/kk-portfolio-bucket/img/tree-screenshot-2022-10-12-14.51.35.png",
+    "video": "https://storage.googleapis.com/kk-portfolio-bucket/video/tree-screen-recorder-wed-oct-12-2022-14-42-24.mp4",
+    "siteHttp": "https://kurkestutis.github.io/tree/",
+    "codeHttp": "https://github.com/KurKestutis/tree"
   },
   {
     "id": 6,
     "name": "Photo Website",
     "imgPath": "https://kurkestutis.netlify.app/img/screenshots/screenshot-6_kk.JPG",
+    "video": "",
     "siteHttp": "https://kurkestutis.github.io/KestutisPhotoWebsite/",
     "codeHttp": "https://github.com/KurKestutis/KestutisPhotoWebsite"
   }
