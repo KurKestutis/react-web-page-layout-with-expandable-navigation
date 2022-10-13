@@ -3,7 +3,7 @@ import "./Footer.scss";
 const Footer = () => {
   return (
     <footer className="footer">
-      <h3>Footer</h3>
+      <h3>2022</h3>
     </footer>
   );
 };

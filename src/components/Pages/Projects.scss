@@ -1,8 +1,11 @@
+@import "styles/styles-variables";
+
 .projects {
+  &__page-title {
+    padding: $page-title-padding;
+  }
+
   &__cards {
-    // position: relative;
-    // width: 100%;
-    // margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
   }

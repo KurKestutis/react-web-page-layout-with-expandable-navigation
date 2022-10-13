@@ -17,7 +17,7 @@ const Projects = (props) => {
 
   return (
     <div className="projects">
-      <h2 className="projects__name">Projects</h2>
+      <h2 className="projects__page-title">Projects</h2>
       <div className="projects__cards">{cards}</div>
     </div>
   );

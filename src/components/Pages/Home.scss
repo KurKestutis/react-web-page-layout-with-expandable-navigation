@@ -1,0 +1,7 @@
+@import "styles/styles-variables";
+
+.home {
+  &__page-title {
+    padding: $page-title-padding;
+  }
+}
