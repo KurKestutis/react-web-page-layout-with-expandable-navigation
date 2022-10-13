@@ -2,9 +2,10 @@ import { useState } from "react";
 import "./Navigation.scss";
 import { NavLink } from "react-router-dom";
 
-import home from "img/home.png";
-import projects from "img/projects.png";
-import about from "img/about.png";
+import home from "img/NavigationIcons/home.png";
+import projects from "img/NavigationIcons/projects.png";
+import about from "img/NavigationIcons/about.png";
+import contacts from "img/NavigationIcons/contacts.png";
 
 const Navigation = (props) => {
   const [expanNavBool, setExpanNav] = useState(false);
@@ -67,6 +68,24 @@ const Navigation = (props) => {
               }
             >
               About
+            </h4>
+          </NavLink>
+        </li>
+        <li className="nav-list-item">
+          <NavLink to="/contacts" className="nav-list-item-link">
+            <img
+              src={contacts}
+              alt="Contacts"
+              className="nav-list-item-link-logo"
+            />
+            <h4
+              className={
+                expanNavBool
+                  ? "nav-list-item-link-text--expanded"
+                  : "nav-list-item-link-text"
+              }
+            >
+              Contacts
             </h4>
           </NavLink>
         </li>
