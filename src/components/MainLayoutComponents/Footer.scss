@@ -1,5 +1,7 @@
+@import "styles/styles-variables";
+
 .footer {
-  background-color: rgb(70, 159, 52);
-  padding: 0.1rem 3rem;
+  background-color: $footer-color;
+  padding: 0.1rem 0.8rem;
   text-align: end;
 }

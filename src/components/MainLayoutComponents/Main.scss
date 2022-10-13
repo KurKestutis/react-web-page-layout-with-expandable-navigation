@@ -1,12 +1,13 @@
+@import "styles/styles-variables";
+
 .main {
-  padding: 1rem 5rem;
-  color: rgb(15, 20, 20);
-  background-color: rgba(255, 127, 80, 0.6);
+  padding: $desktop-padding;
+  background-color: $main-color;
   flex: 1;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: $mobile-breakpoint) {
   .main {
-    padding: 1rem 2rem 0 0.5rem;
+    padding: $mobile-padding-double;
   }
 }

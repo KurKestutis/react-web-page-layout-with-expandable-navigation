@@ -1,4 +1,12 @@
+@import "styles/styles-variables";
+
 .header {
-  padding: 2rem 5rem;
-  background-color: rgba(127, 68, 137, 0.746);
+  padding: $desktop-padding;
+  background-color: $header-color;
+}
+
+@media only screen and (max-width: $mobile-breakpoint) {
+  .header {
+    padding: $mobile-padding;
+  }
 }
