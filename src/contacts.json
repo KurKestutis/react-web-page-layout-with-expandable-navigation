@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "type": "email",
+    "text": "kurkestutis@gmail.com",
+    "icon": "https://storage.googleapis.com/kk-portfolio-bucket/ContactsIcons/email.png",
+    "href": "kurkestutis@gmail.com"
+  },
+  {
+    "id": 2,
+    "type": "phone",
+    "text": "+370 674 78 505",
+    "icon": "https://storage.googleapis.com/kk-portfolio-bucket/ContactsIcons/phone.png",
+    "href": "+370 674 78 505"
+  },
+  {
+    "id": 3,
+    "type": "link",
+    "text": "linkedin.com/in/kurkestutis",
+    "icon": "https://storage.googleapis.com/kk-portfolio-bucket/ContactsIcons/linkedin.png",
+    "href": "https://www.linkedin.com/in/k%C4%99stutis-kurienius-39501531/"
+  },
+  {
+    "id": 4,
+    "type": "link",
+    "text": "github.com/KurKestutis",
+    "icon": "https://storage.googleapis.com/kk-portfolio-bucket/ContactsIcons/github.png",
+    "href": "https://github.com/KurKestutis"
+  },
+  {
+    "id": 5,
+    "type": "location",
+    "text": "Vilnius, Lithuania",
+    "icon": "https://storage.googleapis.com/kk-portfolio-bucket/ContactsIcons/pin.png",
+    "href": "https://www.google.com/maps/place/Vilnius/@54.6878572,25.2575617,13z/data=!4m5!3m4!1s0x46dd93fb5c6408f5:0x400d18c70e9dc40!8m2!3d54.6871555!4d25.2796514"
+  }
+]

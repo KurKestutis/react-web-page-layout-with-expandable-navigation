@@ -1,3 +1,4 @@
+import React from "react";
 import "./Projects.scss";
 
 import Card from "components/Feature/Card";
