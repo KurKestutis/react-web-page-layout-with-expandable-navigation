@@ -1,3 +1,5 @@
+@import "styles/styles-variables";
+
 .card {
   padding: 1rem;
   display: flex;
@@ -17,8 +19,7 @@
     width: 100%;
     max-width: 600px;
     margin-bottom: 0.5rem;
-    box-shadow: -3px 13px 26px -14px rgba(0, 0, 0, 0.74);
-    transition: all 0.5s ease-in-out;
+    box-shadow: $box-shadow-1;
   }
 
   &__btn {

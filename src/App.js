@@ -11,9 +11,6 @@ function App(props) {
 
   const shrinkContent = (props) => {
     narrowContend ? setNarrowContend(false) : setNarrowContend(true);
-    console.log(
-      `narrowContend ? setNarrowContend(false) : setNarrowContend(true);`
-    );
   };
   return (
     <div className="App">

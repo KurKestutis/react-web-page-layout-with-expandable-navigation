@@ -4,10 +4,10 @@ function HoverVideoPlayerKK(props) {
   return (
     <HoverVideoPlayer
       style={{
-        // Make the image expand to cover the video's dimensions
         width: "100%",
         maxWidth: "600px",
         height: "100%",
+        boxShadow: "-3px 0px 22px -15px rgba(0, 0, 0, 0.74)",
       }}
       videoSrc={props.video}
       pausedOverlay={
@@ -15,11 +15,11 @@ function HoverVideoPlayerKK(props) {
           src={props.imgSrcForHover}
           alt="project screenshot"
           style={{
-            // Make the image expand to cover the video's dimensions
             width: "100%",
             maxWidth: "600px",
             height: "100%",
             objectFit: "cover",
+            boxShadow: "-3px 0px 22px -15px rgba(0, 0, 0, 0.74)",
           }}
         />
       }

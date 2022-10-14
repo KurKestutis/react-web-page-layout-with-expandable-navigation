@@ -1,6 +1,14 @@
 [
   {
     "id": 1,
+    "name": "React portfolio",
+    "imgPath": "https://storage.googleapis.com/kk-portfolio-bucket/img/nav-3-img-screenshot_2022-10-14_15.55.11.png",
+    "video": "https://storage.googleapis.com/kk-portfolio-bucket/video/nav-4-screen-recorder-fri-oct-14-2022-21-39-46.mp4",
+    "siteHttp": "https://kkreactnav.netlify.app/#/projects",
+    "codeHttp": "https://github.com/KurKestutis/react-web-page-layout-with-expandable-navigation"
+  },
+  {
+    "id": 2,
     "name": "Dice game PIG",
     "imgPath": "https://storage.googleapis.com/kk-portfolio-bucket/img/Screenshot_2022-10-07_11.27.31_dice.png",
     "video": "https://storage.googleapis.com/kk-portfolio-bucket/video/dice-12-screen-recorder-fri-oct-011-2022-16-16-18.mp4",
@@ -8,7 +16,7 @@
     "codeHttp": "https://github.com/KurKestutis/pig-dice-game"
   },
   {
-    "id": 2,
+    "id": 3,
     "name": "Countdown clock",
     "imgPath": "https://storage.googleapis.com/kk-portfolio-bucket/img/Screenshot-2022-10-07-15.16.227-3-new-year.jpg",
     "video": "https://storage.googleapis.com/kk-portfolio-bucket/video/new-year-9-screen-recorder-fri-oct-07-2022-16-02-25.mp4",
@@ -16,21 +24,14 @@
     "codeHttp": "https://github.com/KurKestutis/countdown"
   },
   {
-    "id": 3,
+    "id": 4,
     "name": "Four cards feature section",
     "imgPath": "https://storage.googleapis.com/kk-portfolio-bucket/img/four-cards-img-screenshot-2022-10-11-16.30.32.png",
     "video": "https://storage.googleapis.com/kk-portfolio-bucket/video/four-cards-screen-recorder-tue-oct-11-2022-20-14-50.mp4",
     "siteHttp": "https://kurkestutis.github.io/four-card-feature-section/",
     "codeHttp": "https://github.com/KurKestutis/four-card-feature-section"
   },
-  {
-    "id": 4,
-    "name": "Single price grid component",
-    "imgPath": "https://storage.googleapis.com/kk-portfolio-bucket/img/single-price-grid-component-screenshot-2022-10-12-14.04.02.png",
-    "video": "https://storage.googleapis.com/kk-portfolio-bucket/video/single-card-video-screen-recorder-wed-oct-12-2022-14-09-02.mp4",
-    "siteHttp": "https://kurkestutis.github.io/single-price-grid-component/",
-    "codeHttp": "https://github.com/KurKestutis/single-price-grid-component"
-  },
+
   {
     "id": 5,
     "name": "Tree",
