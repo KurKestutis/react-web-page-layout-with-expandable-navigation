@@ -15,13 +15,7 @@ function App(props) {
   return (
     <div className="App">
       <Navigation onClickToggleMainContent={shrinkContent} />
-      <div
-        className={
-          narrowContend
-            ? "main-content-wraper main-content-wraper--shrink"
-            : "main-content-wraper"
-        }
-      >
+      <div className={narrowContend ? "main-content-wraper main-content-wraper--shrink" : "main-content-wraper"}>
         <Header />
         <Main className="main" />
         <Footer />
